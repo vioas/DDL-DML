@@ -64,6 +64,8 @@ mysql> SELECT user FROM mysql.user
 
 alt text
 
+  ![image](https://github.com/vioas/DDL-DML/assets/142601752/9f602d86-82a7-41c0-aa3d-721208e1a7a1)
+
 1.4. Дайте все права для пользователя sys_temp.
 mysql> GRANT ALL PRIVILEGES ON . TO 'sys_temp'@'localhost';
 
