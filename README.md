@@ -79,6 +79,8 @@ alt text
 
 ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
+   ![image](https://github.com/vioas/DDL-DML/assets/142601752/ed95c0de-2ffa-4cea-a237-eccd8a0310c7)
+
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
 1.7. Восстановите дамп в базу данных.
