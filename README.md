@@ -70,6 +70,9 @@ alt text
 1.4. Дайте все права для пользователя sys_temp.
 mysql> GRANT ALL PRIVILEGES ON . TO 'sys_temp'@'localhost';
 
+   ![image](https://github.com/vioas/DDL-DML/assets/142601752/f7355bc9-7bf1-481d-929a-901529a4c34c)
+
+
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
 mysql> SHOW GRANTS FOR 'sys_temp'@'localhost';
