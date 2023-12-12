@@ -59,13 +59,15 @@ apt-get install mysql-server
 
 CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password';
 
+   ![image](https://github.com/vioas/DDL-DML/assets/142601752/9f602d86-82a7-41c0-aa3d-721208e1a7a1)
+
 ####1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
 mysql> SELECT user FROM mysql.user
 
 alt text
 
-  ![image](https://github.com/vioas/DDL-DML/assets/142601752/9f602d86-82a7-41c0-aa3d-721208e1a7a1)
+   ![image](https://github.com/vioas/DDL-DML/assets/142601752/25a47701-cc20-4a8b-8ae0-8134f5a685b8)
 
 1.4. Дайте все права для пользователя sys_temp.
 mysql> GRANT ALL PRIVILEGES ON . TO 'sys_temp'@'localhost';
