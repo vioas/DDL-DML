@@ -75,6 +75,9 @@ mysql> GRANT ALL PRIVILEGES ON . TO 'sys_temp'@'localhost';
 mysql> SHOW GRANTS FOR 'sys_temp'@'localhost';
 alt text
 
+   ![image](https://github.com/vioas/DDL-DML/assets/142601752/b141d251-7b7e-45ca-902e-6c21d1e1f080)
+
+
 1.6. Переподключитесь к базе данных от имени sys_temp. Для смены типа аутентификации с sha2 используйте запрос:
 
 ALTER USER 'sys_temp'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
