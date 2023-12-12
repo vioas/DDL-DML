@@ -50,7 +50,8 @@ apt-get install mysql-server
 
 В процессе установки нас просят установить пароль пользователя root для MySQL. Выбираем плагин аутентификации по умолчанию. Рекомендуется Strong Password Encryption. Ok. Установка завершена.
 
-  https://github.com/vioas/DDL-DML/blob/main/001.png
+   ![image](https://github.com/vioas/DDL-DML/assets/142601752/7d8442fb-e980-4e47-bbe8-a95e88b87488)
+
 
 
 1.2. Создайте учётную запись sys_temp.
